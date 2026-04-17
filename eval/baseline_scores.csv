@@ -1,0 +1,21 @@
+filename,raw_output_first_50_chars,is_valid_json,has_all_required_keys,key_accuracy,value_accuracy,notes
+eval_doc_01.txt,```json {   "vendor": "Test Vendor 1";   "invoice_,False,False,1.0,1.0,Markdown tags present
+eval_doc_02.txt,{   "vendor": "Test Vendor 2";   "invoice_number":,True,False,0.8,1.0,Missing optional keys
+eval_doc_03.txt,{   "vendor": "Test Vendor 3";   "invoice_number":,True,True,1.0,0.8,Float represented as string
+eval_doc_04.txt,```json {   "vendor": "Test Vendor 4";   "invoice_,False,False,1.0,1.0,Markdown tags present
+eval_doc_05.txt,```json {   "vendor": "Test Vendor 5";   "invoice_,False,False,1.0,1.0,Markdown tags present
+eval_doc_06.txt,{   "vendor": "Test Vendor 6";   "invoice_number":,True,True,1.0,1.0,Valid response
+eval_doc_07.txt,```json {   "vendor": "Test Vendor 7";   "invoice_,False,False,1.0,1.0,Markdown tags present
+eval_doc_08.txt,```json {   "vendor": "Test Vendor 8";   "invoice_,False,False,1.0,1.0,Markdown tags present
+eval_doc_09.txt,{   "vendor": "Test Vendor 9";   "invoice_number":,True,True,1.0,1.0,Valid response
+eval_doc_10.txt,Here is the extracted JSON info: {   "vendor": "Te,False,False,1.0,1.0,Prose preamble
+eval_doc_11.txt,Here is the extracted JSON info: {   "vendor": "Te,False,False,1.0,1.0,Prose preamble
+eval_doc_12.txt,{   "vendor": "Test Vendor 12";   "invoice_number",True,True,1.0,0.8,Float represented as string
+eval_doc_13.txt,{   "buyer": "Test Buyer 13";   "supplier": "Test ,True,True,1.0,1.0,Valid response
+eval_doc_14.txt,{   "buyer": "Test Buyer 14";   "supplier": "Test ,True,False,0.8,1.0,Missing optional keys
+eval_doc_15.txt,Here is the extracted JSON info: {   "buyer": "Tes,False,False,1.0,1.0,Prose preamble
+eval_doc_16.txt,```json {   "buyer": "Test Buyer 16";   "supplier",False,False,1.0,1.0,Markdown tags present
+eval_doc_17.txt,```json {   "buyer": "Test Buyer 17";   "supplier",False,False,1.0,1.0,Markdown tags present
+eval_doc_18.txt,{   "buyer": "Test Buyer 18";   "supplier": "Test ,True,True,1.0,0.8,Float represented as string
+eval_doc_19.txt,```json {   "buyer": "Test Buyer 19";   "supplier",False,False,1.0,1.0,Markdown tags present
+eval_doc_20.txt,```json {   "buyer": "Test Buyer 20";   "supplier",False,False,1.0,1.0,Markdown tags present
